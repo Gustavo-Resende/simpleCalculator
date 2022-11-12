@@ -110,3 +110,30 @@ h1{
     cursor: pointer;
 }
 
+@media (max-width: 700px){
+    .box-all-content, .line-result, .line-numbers, .more{
+        width: 23rem;
+        height: 6rem;
+    }
+}
+
+@media (max-width: 425px){
+    .box-all-content, .line-result, .line-numbers, .more{
+        width: 20rem;
+        height: 5rem;
+    }
+}
+
+@media (max-width: 375px){
+    .box-all-content, .line-result, .line-numbers, .more{
+        width: 15rem;
+        height: 4rem;
+    }
+}
+
+@media (max-height: 600px){
+    .box-all-content, .line-result, .line-numbers, .more{
+        width: 20rem;
+        height: 5rem;
+    }
+}
