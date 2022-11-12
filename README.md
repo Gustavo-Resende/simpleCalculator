@@ -1,3 +1,4 @@
+![calculadora print](https://user-images.githubusercontent.com/105260196/201479875-2c18445f-c94c-477c-8384-d555b0cee056.png)
 # **Calculadora Simples**  
 Projeto feito em HTML, CSS e JavaScript. É uma calculadora com operadores basicos de soma, subtração, multiplicação e divisão. Também poussui um botão para alterar o tema da página. Você pode testar o projeto [neste](https://gustavo-resende.github.io/simpleCalculator/) link.
 
