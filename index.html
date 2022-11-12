@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="box-all-content">
+        <h1>Calculator</h1>
+        <div class="box-calculator">
+
+            <!-- Line 1 -->
+            <div class="line-result">
+                <div class="result"><p id="result"></p></div>
+                <div class="button-clear"><button id="clear" onclick="back()"><</button></div>
+            </div>
+
+            <!-- Line 2 -->
+            <div class="line-numbers">
+                <div><button onclick="insert('1')">1</button></div>
+                <div><button onclick="insert('2')">2</button></div>
+                <div><button onclick="insert('3')">3</button></div>
+                <div><button onclick="insert('+')">+</button></div>
+            </div>
+
+            <!-- Line 3 -->
+            <div class="line-numbers">
+                <div><button onclick="insert('4')">4</button></div>
+                <div><button onclick="insert('5')">5</button></div>
+                <div><button onclick="insert('6')">6</button></div>
+                <div><button onclick="insert('-')">-</button></div>
+            </div>
+
+            <!-- Line 4 -->
+            <div class="line-numbers">
+                <div><button onclick="insert('7')">7</button></div>
+                <div><button onclick="insert('8')">8</button></div>
+                <div><button onclick="insert('9')">9</button></div>
+                <div><button onclick="insert('*')">x</button></div>
+            </div>
+
+            <!-- Line 5 -->
+            <div class="line-numbers">
+                <div><button onclick="insert('/')">/</button></div>
+                <div><button onclick="insert('0')">0</button></div>
+                <div><button onclick="insert('.')">.</button></div>
+                <div><button onclick="calculate()">=</button></div>
+            </div>
+
+        </div>
+        <div class="more">
+            <button onclick="clearAll()">Clear all</button>
+            <button onclick="themeLight()" id="themeLight">Light Mode</button>
+            <button onclick="themeDark()" id="themeDark" hidden>Dark Mode</button>
+        </div>
+    </div>
+</body>
+</html>
